@@ -26,7 +26,7 @@ function Modal(props) {
               <span>{errorMessage}</span>
             </div>
             <div className="modal-footer">
-              <button onClick={handleClosePopup}>Close</button>
+              <button onClick={handleClose} className="btn-primary">Close</button>
               {/* <button onClick={notOk}>Cancel</button> */}
             </div>
           </div>
